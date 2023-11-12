@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    background-image: linear-gradient(180deg, #A2678A, #4D3C77, #37306B );
+}
+
+
+.container{
+    overflow: hidden;
+    background-color: #8e8d8c;
+    height: 1300px;
+    border-radius: 50px;
+    box-shadow: 2px 2px 12px black;
+    position: relative;
+}
+.cinema{
+    width: 1220px;
+    height: 280px !important;
+    position: absolute;
+   top:2%;
+   left:0;
+    border-radius: 20px;
+    box-shadow: 10px 30px 30px #5C5470;
+    animation: move 2s ease-in-out infinite;
+}
+
+
+.chairs{
+    position: absolute;
+    top:350px;
+    left:8%;
+    padding-bottom: 20px;
+
+}
+
+.chairs .col-10 {
+    display: flex;
+    justify-content: center;
+  
+}
+
+.chairs .col-a{
+    margin-top: 40px;
+}
+
+.chairs .col-10 i{
+    width: 40px;
+    height: 40px;
+    padding-top: 10px;
+    margin-left: 7px;
+    box-shadow: 2px 2px 2px 2px #4D3C77;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    
+}
+
+.chairs .col-10 i:hover{
+    cursor: pointer;
+    background-color: #A2678A;
+    border-radius: 50%;
+    
+}
+
+.business {
+    background-color: #395144
+}
+
+
+
+.selected {
+    background-color: #37306B;
+    color: aliceblue;
+}
+
+.reserved {
+    background-color: #FECDA6;
+    color: #FF9130;
+}
+
+.chair:nth-of-type(2) {
+    margin-right: 30px;
+}
+
+.chair:nth-last-child(3) {
+    margin-right: 30px;
+}
+
+
+
+
+@keyframes move {
+    0%, 100%{
+     transform: rotateX(360deg);
+    }
+    50%{
+        transform: rotateX(330deg);
+    }
+  }
+
+.seats{
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    top:900px;
+    left: 0;
+    
+}
+
+.seat{
+    list-style: none;
+    padding: 20px;
+    font-size: 1.2rem;
+    
+}
+
+.exampleSeat{
+    width: 40px;
+    height: 40px;
+    padding-top: 10px;
+    box-shadow: 2px 5px 5px #4D3C77;
+    border-radius: 50%;
+    padding-left: 13px;
+   
+}
+
+.text{
+    position: absolute;
+    top: 1150px;
+    left:25%;
+   
+}
+
+.text .pay {
+    font-size: 1.6rem;
+}
+
