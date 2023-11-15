@@ -15,7 +15,7 @@ body {
 
 .container{
     overflow: hidden;
-    background-color: #8e8d8c;
+    background-color: #45474B;
     height: 1300px;
     border-radius: 50px;
     box-shadow: 2px 2px 12px black;
@@ -28,7 +28,7 @@ body {
    top:2%;
    left:0;
     border-radius: 20px;
-    box-shadow: 10px 30px 30px #5C5470;
+    box-shadow: 5px 10px 10px 5px wheat;
     animation: move 2s ease-in-out infinite;
 }
 
@@ -37,13 +37,14 @@ body {
     position: absolute;
     top:350px;
     left:8%;
-    padding-bottom: 20px;
+    padding-bottom: 30px;
 
 }
 
 .chairs .col-10 {
     display: flex;
     justify-content: center;
+    
   
 }
 
@@ -52,11 +53,12 @@ body {
 }
 
 .chairs .col-10 i{
+    color: wheat;
     width: 40px;
     height: 40px;
     padding-top: 10px;
-    margin-left: 7px;
-    box-shadow: 2px 2px 2px 2px #4D3C77;
+    margin-left: 9px;
+    box-shadow: 2px 1px 2px 2px wheat;
     border-radius: 50%;
     display: flex;
     justify-content: center;
@@ -83,7 +85,8 @@ body {
 
 .reserved {
     background-color: #FECDA6;
-    color: #FF9130;
+    color: black !important;
+
 }
 
 .chair:nth-of-type(2) {
@@ -119,7 +122,8 @@ body {
     width: 40px;
     height: 40px;
     padding-top: 10px;
-    box-shadow: 2px 5px 5px #4D3C77;
+    box-shadow: 2px 5px 5px wheat;
+    color: wheat;
     border-radius: 50%;
     padding-left: 13px;
    
@@ -129,12 +133,13 @@ body {
     position: absolute;
     top: 1150px;
     left:25%;
+    width: 800px;
    
 }
 
 .text .pay {
     font-size: 1.6rem;
-    
+    display: none;
 }
 
 
