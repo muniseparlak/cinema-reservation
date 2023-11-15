@@ -97,14 +97,7 @@ body {
 
 
 
-@keyframes move {
-    0%, 100%{
-     transform: rotateX(360deg);
-    }
-    50%{
-        transform: rotateX(330deg);
-    }
-  }
+
 
 .seats{
     display: flex;
@@ -141,5 +134,15 @@ body {
 
 .text .pay {
     font-size: 1.6rem;
+    
 }
 
+
+@keyframes move {
+    0%, 100%{
+     transform: rotateX(360deg);
+    }
+    50%{
+        transform: rotateX(330deg);
+    }
+  }
