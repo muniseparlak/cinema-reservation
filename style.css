@@ -194,8 +194,16 @@ body {
 
 }
 
+@media screen and (min-width: 508px) and (max-width: 767px) {
+    .cinema{
+        width: 450px;
+        padding: auto;
+    }
+
+}
+
 /*xs ekran için*/
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 507px) {
 
     .cinema{
         width: 300px;
